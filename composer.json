@@ -1,0 +1,32 @@
+{
+  "name": "gdecris/writer-ivey",
+  "description": "Tabular data file writer. Used to convert tabular data into delimited/excel files",
+  "keywords": [
+    "excel",
+    "file",
+    "writer",
+    "csv",
+    "tsv"
+  ],
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Giovanni DeCristofaro",
+      "homepage": "http://gdecris.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.3",
+    "phpoffice/phpexcel": "^1.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.5"
+  },
+  "autoload": {
+    "psr-0" : {
+      "Ivey" : "src"
+    }
+  }
+}
